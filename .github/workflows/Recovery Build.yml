@@ -39,6 +39,10 @@ on:
         default: 'twrp_lyriq'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
+        options:
+        - boot
+        - recovery
+        - vendor_boot
         required: true
         default: 'vendor_boot'
 
