@@ -43,9 +43,9 @@ on:
         options:
         - boot
         - recovery
-        - vendor_boot
+        - vendorboot
         required: true
-        default: 'vendor_boot'
+        default: 'vendorboot'
 
 jobs:
   build:
